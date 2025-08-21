@@ -1,0 +1,1 @@
+execute if entity @s[tag=thaumic_tinkerer] run function craft:build/stations/thaumic_tinkerer
