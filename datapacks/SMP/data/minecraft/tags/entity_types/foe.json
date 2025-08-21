@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:bat",
+    "minecraft:bee",
+    "minecraft:blaze",
+	"minecraft:cave_spider",
+	"minecraft:creeper",
+	"minecraft:drowned",
+	"minecraft:ghast",
+	"minecraft:skeleton",
+	"minecraft:spider",
+	"minecraft:witch",
+	"minecraft:vindicator",
+	"minecraft:bat",
+	"minecraft:hoglin",
+	"minecraft:zoglin",
+	"minecraft:zombie"
+  ]
+}

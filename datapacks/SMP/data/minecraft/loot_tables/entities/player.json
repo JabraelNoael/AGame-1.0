@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "weight": 1.0,
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+			  "conditions": [
+                {
+                  "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "name": "minecraft:player_head"
+        },
+        {
+          "weight": 0.0,
+          "type": "minecraft:item",
+          "name": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

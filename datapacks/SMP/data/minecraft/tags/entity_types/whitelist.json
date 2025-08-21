@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:familiar",
+    "#minecraft:neutral",
+    "#minecraft:foe"
+  ]
+}

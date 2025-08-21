@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:projectiles_inground",
+	"#minecraft:projectiles_onground",
+	"minecraft:area_effect_cloud"
+  ]
+}

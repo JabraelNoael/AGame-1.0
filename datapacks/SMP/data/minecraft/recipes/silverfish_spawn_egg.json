@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#S#",
+        "#R#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "S": {
+            "item": "minecraft:smithing_table"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:silverfish_spawn_egg",
+        "count": 1
+    },
+    "group": "misc"
+}
