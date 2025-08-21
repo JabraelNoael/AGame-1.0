@@ -1,0 +1,1 @@
+effect give @s health_boost 1000000 4 true

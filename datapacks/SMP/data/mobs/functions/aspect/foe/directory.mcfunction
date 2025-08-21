@@ -1,0 +1,9 @@
+execute if entity @s[scores={aspect=1}] run function mobs:aspect/foe/fire/repeat
+execute if entity @s[scores={aspect=2}] run function mobs:aspect/foe/water/repeat
+execute if entity @s[scores={aspect=3}] run function mobs:aspect/foe/air/repeat
+execute if entity @s[scores={aspect=4}] run function mobs:aspect/foe/earth/repeat
+execute if entity @s[scores={aspect=5}] run function mobs:aspect/foe/ender/repeat
+execute if entity @s[scores={aspect=6}] run function mobs:aspect/foe/storm/repeat
+execute if entity @s[scores={aspect=7}] run function mobs:aspect/foe/ice/repeat
+execute if entity @s[scores={aspect=8}] run function mobs:aspect/foe/celestial/repeat
+execute if entity @s[scores={aspect=9}] run function mobs:aspect/foe/abyssal/repeat

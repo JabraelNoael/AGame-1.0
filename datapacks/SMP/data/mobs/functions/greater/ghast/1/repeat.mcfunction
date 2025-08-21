@@ -1,0 +1,1 @@
+execute as @e[type=fireball,tag=!aec.fireball] at @s run function mobs:greater/ghast/1/1

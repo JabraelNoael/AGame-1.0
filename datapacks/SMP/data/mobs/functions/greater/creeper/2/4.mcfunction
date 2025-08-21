@@ -1,0 +1,3 @@
+execute at @e[tag=creeper2,tag=2] run summon creeper ~ ~ ~ {Tags:["clotho","new"],ExplosionRadius:0b,Fuse:5,Attributes:[{Name:generic.max_health,Base:8},{Name:generic.movement_speed,Base:.5}]}
+execute at @e[tag=creeper2,tag=3] run summon creeper ~ ~ ~ {Tags:["clotho","new"],ExplosionRadius:0b,Fuse:5,Attributes:[{Name:generic.max_health,Base:8},{Name:generic.movement_speed,Base:.5}]}
+execute at @e[tag=creeper2,tag=4] run summon creeper ~ ~ ~ {Tags:["clotho","new"],ExplosionRadius:0b,Fuse:5,Attributes:[{Name:generic.max_health,Base:8},{Name:generic.movement_speed,Base:0}]}

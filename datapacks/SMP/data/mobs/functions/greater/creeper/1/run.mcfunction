@@ -1,0 +1,1 @@
+data merge entity @s {DeathLootTable:"parent:entities/greater/creeper1",Team:"noCollison",Health:40f,ExplosionRadius:2b,Fuse:60,Attributes:[{Name:generic.max_health,Base:40}]}

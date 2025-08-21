@@ -1,0 +1,1 @@
+data merge entity @s {DeathLootTable:"parent:entities/greater/zombie2",Tags:["clotho","greater","greater_2"],Silent:1b,CanPickUpLoot:1b,Health:40f,CanBreakDoors:1b,Attributes:[{Name:generic.max_health,Base:40},{Name:generic.follow_range,Base:25},{Name:generic.knockback_resistance,Base:.95},{Name:generic.attack_knockback,Base:.5}]}

@@ -1,0 +1,1 @@
+data merge entity @s {DeathLootTable:"parent:entities/greater/bee1"}

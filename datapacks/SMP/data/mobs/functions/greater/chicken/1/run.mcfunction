@@ -1,0 +1,1 @@
+data merge entity @s {Health:8f,Attributes:[{Name:generic.max_health,Base:8}]}

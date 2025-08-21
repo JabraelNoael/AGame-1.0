@@ -1,0 +1,1 @@
+execute at @a[distance=..5.5,sort=nearest,limit=1] run teleport @s ~ ~ ~

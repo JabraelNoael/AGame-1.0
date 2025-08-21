@@ -1,0 +1,1 @@
+execute as @s[nbt={OnGround:1b}] run function mobs:greater/zombie/1/1

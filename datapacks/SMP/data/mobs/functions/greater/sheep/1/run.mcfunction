@@ -1,0 +1,2 @@
+data merge entity @s {ArmorItems:[{id:"minecraft:flint",Count:1b,tag:{sheep_thorn:1b,display:{Name:'{"text":"Sheep Thorn","italic":false}'}}},{},{},{}],ArmorDropChances:[1.000F,0.085F,0.000F,0.085F]}
+effect give @s health_boost 1 4

@@ -1,0 +1,1 @@
+data merge entity @s {DeathLootTable:"parent:entities/greater/bat1",Health:24f,Attributes:[{Name:generic.max_health,Base:24}]}

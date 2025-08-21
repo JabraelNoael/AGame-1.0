@@ -1,0 +1,1 @@
+execute at @s if entity @a[distance=..12] run function mobs:greater/chicken/1/1
