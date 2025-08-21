@@ -1,0 +1,10 @@
+execute at @e[type=item,nbt={OnGround:1b},nbt={Item:{tag:{defense.crossbow:1b}}}] run summon armor_stand ~ ~ ~-.05 {Tags:["defense","defense.crossbow","track.crossbow"],Marker:1b,Invisible:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:dead_bubble_coral_block",Count:1b}]}
+scoreboard players add @e[tag=defense.crossbow,tag=defense.crossbow,tag=!defense.crossbow.prop] dummy 1
+execute at @e[type=item,nbt={OnGround:1b},nbt={Item:{tag:{defense.crossbow:1b}}}] run summon armor_stand ~.02 ~-1 ~.25 {Tags:["defense","defense.crossbow","defense.crossbow.prop"],Marker:1b,Invisible:1b,DisabledSlots:4144959,Pose:{Head:[-60f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:end_rod",Count:1b}]}
+execute at @e[type=item,nbt={OnGround:1b},nbt={Item:{tag:{defense.crossbow:1b}}}] run summon armor_stand ~.02 ~.23 ~-.17 {Tags:["defense","defense.crossbow","defense.crossbow.prop"],Marker:1b,Invisible:1b,DisabledSlots:4144959,Pose:{Head:[120f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:end_rod",Count:1b}]}
+execute at @e[type=item,nbt={OnGround:1b},nbt={Item:{tag:{defense.crossbow:1b}}}] run summon armor_stand ~ ~-1.35 ~.05 {Tags:["defense","defense.crossbow","defense.crossbow.prop"],Marker:1b,Invisible:1b,DisabledSlots:4144959,Pose:{Head:[0f,90f,0f]},ArmorItems:[{},{},{},{id:"minecraft:nether_brick_wall",Count:1b}]}
+execute as @e[tag=track.crossbow] at @s run tp @s ~ ~ ~ facing entity @e[tag=mob,limit=1,sort=nearest,distance=0.1..7]
+execute at @e[tag=defense.crossbow,tag=!defense.crossbow.prop,scores={dummy=60}] at @e[tag=mob,limit=1,sort=nearest,distance=0.1..7] run particle crit ~ ~1 ~ 0 .4 0 .4 25 force @a
+execute at @e[tag=defense.crossbow,tag=!defense.crossbow.prop,scores={dummy=60}] at @e[tag=mob,limit=1,sort=nearest,distance=0.1..7] run summon arrow ~ ~2.3 ~ {pickup:0b,life:4,damage:5d,crit:1b,Motion:[0.0,-9.0,0.0]}
+scoreboard players set @e[tag=defense.crossbow,tag=!defense.crossbow.prop,scores={dummy=60..}] dummy 0
+kill @e[type=item,nbt={OnGround:1b},nbt={Item:{tag:{defense.crossbow:1b}}}]
