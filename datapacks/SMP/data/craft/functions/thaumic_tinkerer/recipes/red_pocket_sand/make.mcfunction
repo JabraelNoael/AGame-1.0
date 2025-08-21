@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:red_sand",Count:8b,tag:{drop:1b,use:1b,display:{Name:'{"text":"Red Pocket Sand","italic":false}'},red_pocket_sand:1b}}]}

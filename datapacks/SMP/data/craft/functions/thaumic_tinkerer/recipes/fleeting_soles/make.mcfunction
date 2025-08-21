@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:rabbit_foot",Count:1b,tag:{drop:1b,stat:1b,fleeting_soles:1b,display:{Lore:['{"text":"Gain +5% movement speed (limit: 6)"}'],Name:'{"text":"Fleeting Soles","italic":false}'},Enchantments:[{}]}}]}

@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:nether_brick",Count:1b,tag:{drop:1b,cartilage_plating:1b,stat:1b,display:{Lore:['{"text":"Gain +1 armor toughness (limit: 3)"}'],Name:'{"text":"Cartilage Plating","italic":false}'},Enchantments:[{}]}}]}

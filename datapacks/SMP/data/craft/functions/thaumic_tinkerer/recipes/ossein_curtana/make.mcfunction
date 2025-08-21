@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:feather",Count:1b,tag:{drop:1b,stat:1b,ossein_curtana:1b,display:{Lore:['{"text":"Gain +.25 max dmg (limit: 8)"}'],Name:'{"text":"Ossein Curtana","italic":false}'},Enchantments:[{}]}}]}

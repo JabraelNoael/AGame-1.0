@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:sugar",Count:1b,tag:{drop:1b,infantry_mans_suspicious_powder:1b,stat:1b,display:{Lore:['{"text":"Gain +25% attack speed (limit: 50%)"}'],Name:'{"text":"Infantry Man\'s Suspicious Powder","italic":false}'},Enchantments:[{}]}}]}

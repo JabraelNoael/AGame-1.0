@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:bone",Count:1b,tag:{bone_frame:1b,display:{Name:'{"text":"Bone Frame","italic":false}'}}}]}

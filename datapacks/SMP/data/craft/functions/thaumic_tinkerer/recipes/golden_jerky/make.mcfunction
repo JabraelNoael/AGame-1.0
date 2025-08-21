@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:rotten_flesh",Count:1b,tag:{drop:1b,stat:1b,display:{Lore:['{"text":"Gain +1 max hp (limit: 20)"}'],Name:'{"text":"Golden Jerky","italic":false}'},Enchantments:[{}],golden_jerky:1b}}]}

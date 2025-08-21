@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/quartz_fabric/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/bone_frame/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/iron_hide/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/golden_jerky/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/exoskeleton_encyst/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/ossein_curtana/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/cartilage_plating/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/fleeting_soles/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/infantry_mans_suspicious_powder/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/trusty_lighter/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/pocket_sand/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/red_pocket_sand/check
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/recipes/team/directory

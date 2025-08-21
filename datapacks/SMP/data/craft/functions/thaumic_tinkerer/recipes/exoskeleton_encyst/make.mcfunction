@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:bone",Count:1b,tag:{drop:1b,stat:1b,exoskeleton_encyst:1b,display:{Lore:['{"text":"Gain +1 natural armor (limit: 5)"}'],Name:'{"text":"Exoskeleton Encyst","italic":false}'},Enchantments:[{}]}}]}

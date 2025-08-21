@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',} run function craft:thaumic_tinkerer/unless
+execute if block ~ ~ ~ dispenser{CustomName:'{"text":"Thaumic Tinkerer"}',Items:[{}]} run function craft:thaumic_tinkerer/recipe_directory

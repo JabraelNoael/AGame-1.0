@@ -1,0 +1,2 @@
+playsound minecraft:item.totem.use block @a ~ ~ ~ 3 1.5
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:bone_meal",Count:1b,tag:{iron_hide:1b,display:{Name:'{"text":"Iron Hide","italic":false}'}}}]}
