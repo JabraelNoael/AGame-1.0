@@ -1,0 +1,30 @@
+execute unless score @p shop.hud matches 102 run scoreboard players reset @s shop.hud
+scoreboard players add @p shop.hud 102
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Food : ","color":"gray"},{"text":"350","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Iron Ore : ","color":"gray"},{"text":"100","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Gold Ore : ","color":"gray"},{"text":"100","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Lapis Ore : ","color":"gray"},{"text":"77","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Redstone : ","color":"gray"},{"text":"77","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Stripped Lumber : ","color":"gray"},{"text":"144","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Stone : ","color":"gray"},{"text":"265","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Gold : ","color":"gray"},{"text":"210","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"Lapis : ","color":"gray"},{"text":"145","color":"gold"}]
+execute as @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=102}] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Confirm","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function start:shops/townhall4"}},{"text":"]","color":"gray","bold":false},{"text":" [","color":"gray"},{"text":"Deny","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players reset @p shop.hud"}},{"text":"]","color":"gray","bold":false}]
+tag @a[tag=shop.bq,tag=shop.bl,scores={shop.hud=204,food=350..,iron_o=100..,gold_o=100..,lapis_o=77..,redstone=77..,lumber_s=144..,stone=265..,Gold=210..,Lapis=145..}] add shop_townhall4
+execute as @a[team=gold_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"gold\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["goldteam","builds"]}}
+execute as @a[team=lapis_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"blue\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["lapisteam","builds"]}}
+execute as @a[team=diamond_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["diamondteam","builds"]}}
+execute as @a[team=emerald_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"green\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["emeraldteam","builds"]}}
+execute as @a[team=redstone_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"red\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["redstoneteam","builds"]}}
+execute as @a[team=coal_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"black\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["coalteam","builds"]}}
+execute as @a[team=iron_block,tag=shop.bq,tag=shop.bl,tag=shop_townhall4] run give @s silverfish_spawn_egg{display:{Name:"{\"text\":\"Upgrade to Townhall 4\",\"color\":\"white\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Use this on Townhall 3.\"}"]},RepairCost:99,HideFlags:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],EntityTag:{id:"minecraft:silverfish",Silent:1b,CustomNameVisible:0b,NoAI:1b,Tags:["ironteam","builds"]}}
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] food 350
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] iron_o 100
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] gold_o 100
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] lapis_o 77
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] redstone 77
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] lumber_s 144
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] stone 265
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] Gold 210
+scoreboard players remove @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] Lapis 145
+tag @a[tag=shop.bq,tag=shop.bl,tag=shop_townhall4] remove shop_townhall4
