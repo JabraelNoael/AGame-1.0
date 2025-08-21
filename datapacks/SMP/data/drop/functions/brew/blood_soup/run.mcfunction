@@ -1,0 +1,2 @@
+execute as @e[nbt={Item:{tag:{vampiric_blood:1b}}}] at @s run function drop:brew/blood_soup/check
+execute if entity @e[nbt={Item:{tag:{vampiric_blood:1b}}}] run schedule function drop:brew/blood_soup/run 1t

@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{tag:{pocket_sand:1b}}}] run function drop:use/pocket_sand/run

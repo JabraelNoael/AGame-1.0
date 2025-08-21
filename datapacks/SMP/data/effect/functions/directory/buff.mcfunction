@@ -1,0 +1,1 @@
+execute if entity @s[scores={omnivamp=0..}] run function effect:buff/omnivamp/repeat

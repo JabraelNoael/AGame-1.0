@@ -1,0 +1,9 @@
+execute at @s run kill @e[nbt={Item:{tag:{ossein_curtana:1b}}},sort=nearest,limit=1]
+attribute @s[scores={dummy=275}] minecraft:generic.attack_damage base set 3
+attribute @s[scores={dummy=250}] minecraft:generic.attack_damage base set 2.75
+attribute @s[scores={dummy=225}] minecraft:generic.attack_damage base set 2.5
+attribute @s[scores={dummy=200}] minecraft:generic.attack_damage base set 2.25
+attribute @s[scores={dummy=175}] minecraft:generic.attack_damage base set 2
+attribute @s[scores={dummy=150}] minecraft:generic.attack_damage base set 1.75
+attribute @s[scores={dummy=125}] minecraft:generic.attack_damage base set 1.5
+attribute @s[scores={dummy=100}] minecraft:generic.attack_damage base set 1.25

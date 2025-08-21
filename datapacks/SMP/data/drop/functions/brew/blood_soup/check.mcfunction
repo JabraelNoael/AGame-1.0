@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ cauldron[level=1] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot",Count:6b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:bowl",Count:1b}}] run function drop:brew/blood_soup/make
+execute if block ~ ~ ~ cauldron[level=2] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot",Count:6b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:bowl",Count:1b}}] run function drop:brew/blood_soup/make
+execute if block ~ ~ ~ cauldron[level=3] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot",Count:6b}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:bowl",Count:1b}}] run function drop:brew/blood_soup/make
+execute if block ~ ~ ~ cauldron[level=1] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot_soup",Count:1b}}] run function drop:brew/blood_soup/make
+execute if block ~ ~ ~ cauldron[level=2] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot_soup",Count:1b}}] run function drop:brew/blood_soup/make
+execute if block ~ ~ ~ cauldron[level=3] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:beetroot_soup",Count:1b}}] run function drop:brew/blood_soup/make

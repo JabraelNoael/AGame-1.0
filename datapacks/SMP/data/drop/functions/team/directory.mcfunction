@@ -1,0 +1,14 @@
+execute if entity @s[nbt={Item:{tag:{team_white:1b}}}] run function drop:team/white/run
+execute if entity @s[nbt={Item:{tag:{team_orange:1b}}}] run function drop:team/orange/run
+execute if entity @s[nbt={Item:{tag:{team_magenta:1b}}}] run function drop:team/magenta/run
+execute if entity @s[nbt={Item:{tag:{team_light_blue:1b}}}] run function drop:team/light_blue/run
+execute if entity @s[nbt={Item:{tag:{team_yellow:1b}}}] run function drop:team/yellow/run
+execute if entity @s[nbt={Item:{tag:{team_lime:1b}}}] run function drop:team/lime/run
+execute if entity @s[nbt={Item:{tag:{team_gray:1b}}}] run function drop:team/gray/run
+execute if entity @s[nbt={Item:{tag:{team_light_gray:1b}}}] run function drop:team/light_gray/run
+execute if entity @s[nbt={Item:{tag:{team_cyan:1b}}}] run function drop:team/cyan/run
+execute if entity @s[nbt={Item:{tag:{team_purple:1b}}}] run function drop:team/purple/run
+execute if entity @s[nbt={Item:{tag:{team_blue:1b}}}] run function drop:team/blue/run
+execute if entity @s[nbt={Item:{tag:{team_green:1b}}}] run function drop:team/green/run
+execute if entity @s[nbt={Item:{tag:{team_red:1b}}}] run function drop:team/red/run
+execute if entity @s[nbt={Item:{tag:{team_black:1b}}}] run function drop:team/black/run

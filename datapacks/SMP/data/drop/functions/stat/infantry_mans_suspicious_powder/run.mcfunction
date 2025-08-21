@@ -1,0 +1,2 @@
+execute as @p store result score @s dummy run attribute @s minecraft:generic.attack_speed get
+execute as @p[scores={drop=1..,sneak=1..,dummy=..5}] run function drop:stat/infantry_mans_suspicious_powder/1

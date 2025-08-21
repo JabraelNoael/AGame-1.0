@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{tag:{vampiric_blood:1b}}}] run function drop:brew/blood_soup/run

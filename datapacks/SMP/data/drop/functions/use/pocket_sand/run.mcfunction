@@ -1,0 +1,1 @@
+execute if entity @p[scores={drop=1..,sneak=1..}] run function drop:use/pocket_sand/1
