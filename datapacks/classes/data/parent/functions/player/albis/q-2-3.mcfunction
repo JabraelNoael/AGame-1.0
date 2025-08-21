@@ -1,0 +1,3 @@
+execute if entity @e[team=!Friendly,type=!area_effect_cloud,type=!item,type=!armor_stand,type=!painting,type=!item_frame,distance=..1.25] run function parent:classes/albis/survival/q-2-4
+scoreboard players add @a[tag=albis] raycast 1
+execute as @a[tag=albis,scores={raycast=..31}] unless entity @e[team=!Friendly,type=!area_effect_cloud,type=!item,type=!armor_stand,type=!painting,type=!item_frame,type=!experience_orb,distance=..1.25] positioned ^ ^ ^1 run function parent:classes/albis/survival/q-2-3

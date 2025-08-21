@@ -1,0 +1,2 @@
+execute at @e[tag=aec.albis.mb2-1,nbt={OnGround:0b}] run function parent:classes/albis/survival/mb2-1-2
+execute as @e[tag=aec.albis.mb2-1,nbt={OnGround:1b}] run schedule function parent:classes/albis/survival/mb2-1-1 1t
