@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bat",
+          "nbt": "{Tags:[\"greater\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parent:damage_dealt/bat1"
+  }
+}

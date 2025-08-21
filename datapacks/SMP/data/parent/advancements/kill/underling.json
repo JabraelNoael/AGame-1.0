@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#minecraft:foe",
+          "nbt": "{Tags:[\"underling\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parent:kill/underling"
+  }
+}

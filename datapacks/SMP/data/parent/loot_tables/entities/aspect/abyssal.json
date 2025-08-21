@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{drop:1b,use:1b,aspect_abyssal:1b,display:{Name:'{\"text\":\"Essence of Abyssal\",\"color\":\"white\",\"italic\":false}'},Enchantments:[{}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

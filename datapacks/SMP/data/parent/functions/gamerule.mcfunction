@@ -1,0 +1,1 @@
+gamerule doMobLoot true

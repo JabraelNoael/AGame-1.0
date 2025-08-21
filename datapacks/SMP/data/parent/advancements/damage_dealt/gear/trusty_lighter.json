@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:flint_and_steel",
+              "nbt": "{trusty_lighter:1b}"
+            }
+          }
+        },
+        "entity": {
+          "type": "#minecraft:foe_neutral"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gear:trusty_lighter/lite"
+  }
+}

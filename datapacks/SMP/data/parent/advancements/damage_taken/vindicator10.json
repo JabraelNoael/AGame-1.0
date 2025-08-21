@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vindicator",
+            "nbt": "{Tags:[\"greater_10\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parent:damage_taken/vindicator10"
+  }
+}

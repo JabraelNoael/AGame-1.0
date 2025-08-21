@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "one": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:silverfish_spawn_egg"
+            }
+        }
+    },
+    "rewards": {
+        "function": "craft:thaumic_tinkerer/spawn_egg"
+    }
+}

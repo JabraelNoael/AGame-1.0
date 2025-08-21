@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tattered_bat_wing:1b,display:{Name:'{\"text\":\"Tattered Bat Wing\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "limit": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{drop:1b,brew:1b,vampiric_blood:1b,display:{Name:'{\"text\":\"Vampiric Blood\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

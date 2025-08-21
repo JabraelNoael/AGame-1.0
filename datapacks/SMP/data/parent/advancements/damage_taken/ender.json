@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#minecraft:foe",
+            "nbt": "{Tags:[\"aspect_ender\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parent:damage_taken/ender"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{drop:1b,use:1b,aspect_storm:1b,display:{Name:'{\"text\":\"Essence of Storm\",\"color\":\"white\",\"italic\":false}'},Enchantments:[{}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

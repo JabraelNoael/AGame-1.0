@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#minecraft:foe",
+          "nbt": "{Tags:[\"aspect_ice\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parent:damage_dealt/ice"
+  }
+}
