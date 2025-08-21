@@ -1,0 +1,5 @@
+execute as @s run function spiritwars:game/selection/spirits/clear
+tag @s add war
+replaceitem entity @s weapon.mainhand carrot_on_a_stick{display:{Name:'[{"text":"Battle-axe ","color":"aqua","bold":true,"italic":false},{"text":"[","color":"gray","italic":false},{"text":"War","color":"gold","italic":false},{"text":"]","color":"gray","italic":false}]',Lore:['{"text":"Lore/Info"}','[{"text":"Attack: ","color":"gray","italic":false},{"text":"0","color":"gold","bold":true,"italic":false}]','[{"text":"Health: ","color":"gray","italic":false},{"text":"0","color":"gold","bold":true,"italic":false}]','[{"text":"Defense: ","color":"gray","italic":false},{"text":"0","color":"gold","bold":true,"italic":false}]']},HideFlags:63,RepairCost:9999999,Unbreakable:1b,CustomModelData:1,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:2,Operation:0,UUIDLeast:83079,UUIDMost:807619,Slot:"mainhand"}]}
+effect give @s health_boost 1000000 9 true
+effect give @s instant_health 1 255 true
