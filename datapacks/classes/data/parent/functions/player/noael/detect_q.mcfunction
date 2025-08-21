@@ -1,0 +1,4 @@
+execute as @s[tag=!anti-ability,scores={q.cd=0,q=1..}] at @s run function spiritwars:spirits/death/ffa/q-1
+replaceitem entity @s weapon.mainhand carrot_on_a_stick{display:{Name:'{"text":"Scythe","color":"aqua","bold":true,"italic":false}'},HideFlags:63,RepairCost:9999999,Unbreakable:1b,CustomModelData:5,weapon:1b,death:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:7,Operation:0,UUIDLeast:236710,UUIDMost:404453,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:9999999,Operation:0,UUIDLeast:914791,UUIDMost:945862,Slot:"mainhand"}]}
+scoreboard players set @s q 0
+kill @e[type=item,nbt={Item:{tag:{weapon:1b}}}]

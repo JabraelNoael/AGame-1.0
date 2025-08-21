@@ -1,0 +1,6 @@
+title @s[nbt={SelectedItem:{tag:{michael:1b}}}] actionbar ["",{"text":"Soul Fragments","color":"white"},{"text":": ","color":"gray"},{"score":{"name":"*","objective":"passive"},"bold":true,"color":"gold"},{"text":" | ","color":"gray"},{"keybind":"key.use","color":"white"},{"text":": ","color":"gray"},{"score":{"name":"*","objective":"mb2.cd"},"bold":true,"color":"gold"},{"text":" | ","color":"gray"},{"keybind":"key.swapHands","color":"white"},{"text":": ","color":"gray"},{"score":{"name":"*","objective":"f.cd"},"bold":true,"color":"gold"},{"text":" | ","color":"gray"},{"keybind":"key.drop","color":"white"},{"text":": ","color":"gray"},{"score":{"name":"*","objective":"q.cd"},"bold":true,"color":"gold"}]
+execute as @s[tag=michael.ultimate,scores={passive=..0}] run function parent:classes/michael/survival/passive1-2
+execute as @s[scores={passive=120..}] run function parent:classes/michael/survival/passive1
+scoreboard players set @s[tag=michael.ultimate] damage.dealt 0
+scoreboard players add @s[scores={damage.dealt=1..}] passive 1
+scoreboard players set @s damage.dealt 0

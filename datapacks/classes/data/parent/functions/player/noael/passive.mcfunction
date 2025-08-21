@@ -1,0 +1,5 @@
+title @s[nbt={SelectedItem:{tag:{death:1b}}}] actionbar ["",{"keybind":"key.use","color":"white"},{"text":": ","color":"white"},{"score":{"name":"*","objective":"mb2.cd"},"bold":true,"color":"gold"},{"text":" | ","color":"dark_gray"},{"keybind":"key.swapHands","color":"white"},{"text":": ","color":"white"},{"score":{"name":"*","objective":"f.cd"},"bold":true,"color":"gold"},{"text":" | ","color":"dark_gray"},{"keybind":"key.drop","color":"white"},{"text":": ","color":"white"},{"score":{"name":"*","objective":"q.cd"},"bold":true,"color":"gold"}]
+effect give @a[tag=death,scores={damage.dealt=1..}] regeneration 1 2 true
+scoreboard players set @a[tag=death,scores={damage.dealt=1..}] damage.dealt 0
+execute at @e[tag=death.marked] run particle entity_effect ~ ~1 ~ .25 .5 .25 0 5 normal @a[tag=death,tag=!FPS]
+execute at @e[tag=death.marked] run particle entity_effect ~ ~1 ~ .25 .5 .25 0 10 force @a[tag=death,tag=FPS]

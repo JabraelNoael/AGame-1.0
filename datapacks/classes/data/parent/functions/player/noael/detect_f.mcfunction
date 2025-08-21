@@ -1,0 +1,4 @@
+execute as @s[tag=!anti-dash,tag=!anti-ability,scores={f.cd=0},nbt={Inventory:[{Slot:-106b,tag:{death:1b}}]}] at @s run function spiritwars:spirits/death/ffa/f-1
+execute as @s[tag=run.death.f-2,tag=!anti-dash,tag=!anti-ability,scores={f.cd=1..},nbt={Inventory:[{Slot:-106b,tag:{death:1b}}]}] at @s run function spiritwars:spirits/death/ffa/f-2
+execute as @s run replaceitem entity @s weapon.mainhand carrot_on_a_stick{display:{Name:'{"text":"Scythe","color":"aqua","bold":true,"italic":false}'},HideFlags:63,RepairCost:9999999,Unbreakable:1b,CustomModelData:5,weapon:1b,death:1b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:7,Operation:0,UUIDLeast:236710,UUIDMost:404453,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:9999999,Operation:0,UUIDLeast:914791,UUIDMost:945862,Slot:"mainhand"}]}
+execute as @s run replaceitem entity @s weapon.offhand air
